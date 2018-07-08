@@ -8,7 +8,8 @@ Features:
  * possibility to remotely open / close the door with a reed relay attached to the push putton terminals of hoermann door drive - password protected
  
 Prerequisites:
+ * a secure WiFi
  * Hoermann Door Drive Supramatic
- * Hoermann Light Barriers
+ * Hoermann Light Barriers cabled and enabled in door drive
  * ESP8266 (e.g. NodeMCU, Wemos) with two Ultrasonic Sensors, Voltage Sensor, LED Strip with Driver, Reed Relay
  * PHP5 enabled webserver for receiving doorstate and remote open / close the door
